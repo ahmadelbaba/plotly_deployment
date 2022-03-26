@@ -73,7 +73,7 @@ function buildCharts(sample) {
     var otu_labels = result.otu_labels;
     var sample_values = result.sample_values;
     // 3. Create a variable that holds the washing frequency.
-    var washing_frequency = parseFloat(metaresult.WFREQ);
+    var washing_frequency = parseFloat(metaresult.wfreq);
            console.log(`wfreq = ${washing_frequency}`);
 
     // 7. Create the yticks for the bar chart.
