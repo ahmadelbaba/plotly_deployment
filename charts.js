@@ -83,7 +83,7 @@ function buildCharts(sample) {
       type: "bar",
       orientation: "h",
     } 
-  ];
+    ];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       width: 500, height: 500,
@@ -98,14 +98,14 @@ function buildCharts(sample) {
     // 1. Create the trace for the bubble chart.
     var bubbleData = [
       {
-      x: sampleIds,
-      y: sampleValues,
-      text:sampleLabels,
+      x: otu_Ids,
+      y: sample_Values,
+      text:otu_Labels,
       mode: "markers",
       marker: { 
-        color: sampleIds,
+        color: otu_Ids,
         colorscale: "Earth",
-        size: sampleValues
+        size: sample_Values
         }
       }
     ];
